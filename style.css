@@ -1,0 +1,64 @@
+*:focus {
+    box-shadow: none !important;
+}
+
+:root {
+    --main-color: #EA371F;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.font-custom {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.logo {
+    width: 50px;
+}
+
+.text_title {
+    display: inline;
+    color: var(--main-color);
+}
+
+.color_bottom {
+    border-bottom: 1px solid var(--main-color) !important;
+}
+
+.foto-ste {
+    transform: scale(0.5);
+}
+
+#skills {
+    min-height: 500px;
+}
+
+.titolo {
+    position: relative;
+}
+
+.titolo:after {
+    background-color: #fff;
+    color: #fff;
+    content: "";
+    height: 2px;
+    width: 20%;
+    position: absolute;
+    top: 55px;
+    left: 0;
+}
+
+#experience {
+    min-height: 500px;
+}
+
+.arrow {
+    transform: rotate(-45deg);
+    color: #fff;
+}
+
+#contatti {
+    min-height: 600px;
+}
