@@ -18,6 +18,15 @@ body {
     width: 50px;
 }
 
+a:hover {
+    color: var(--main-color) !important;
+}
+
+#sezione-1 {
+    min-height: 100vh;
+    padding-top: 40px;
+}
+
 .text_title {
     display: inline;
     color: var(--main-color);
@@ -28,11 +37,12 @@ body {
 }
 
 .foto-ste {
-    transform: scale(0.5);
+    transform: scale(0.8);
+    border-radius: 50%;
 }
 
 #skills {
-    min-height: 500px;
+    min-height: 600px;
 }
 
 .titolo {
@@ -61,4 +71,10 @@ body {
 
 #contatti {
     min-height: 600px;
+}
+
+#footer {
+    min-height: 200px;
+    background-color: #0d0d0d;
+    padding: 20px;
 }
