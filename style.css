@@ -8,6 +8,7 @@
 
 body {
     font-family: "Montserrat", sans-serif;
+    font-weight: 300;
 }
 
 .font-custom {
@@ -71,6 +72,22 @@ a:hover {
 
 #contatti {
     min-height: 600px;
+}
+
+.img-contatti {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.titolo-contatti {
+    font-size: 26px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+#contatti a {
+    color: #fff;
 }
 
 #footer {
