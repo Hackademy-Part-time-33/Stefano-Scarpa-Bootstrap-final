@@ -15,6 +15,10 @@ body {
     font-family: "Ubuntu", sans-serif;
 }
 
+.bg-custom {
+    background-color: var(--main-color) !important;
+}
+
 .logo {
     width: 50px;
 }
@@ -70,6 +74,7 @@ a:hover {
     color: #fff;
 }
 
+
 #contatti {
     min-height: 600px;
 }
@@ -95,3 +100,5 @@ a:hover {
     background-color: #0d0d0d;
     padding: 20px;
 }
+
+/* pagina about me */
